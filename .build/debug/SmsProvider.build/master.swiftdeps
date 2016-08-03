@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.0-dev (LLVM 440a472499, Clang e10506ae1c, Swift 395e967875)"
+options: "4e85d15e30d8e12790dfcc9dbbc0ce30"
+build_time: [523441845, 458942000]
+inputs:
+  "/Users/sean/Desktop/childService/SFSmsServer/Sources/SmsProvider/BaseSmsProvider.swift": !dirty [522814471, 0]
+  "/Users/sean/Desktop/childService/SFSmsServer/Sources/SmsProvider/JzSmsProvider.swift": !dirty [522815650, 0]

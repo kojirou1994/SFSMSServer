@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/sean/Desktop/childService/SFSmsServer/.build/debug/PerfectThread.build/master.swiftdeps"
+  },
+  "/Users/sean/Desktop/childService/SFSmsServer/Packages/PerfectThread-0.11.0/Sources/Threading.swift": {
+    "dependencies": "/Users/sean/Desktop/childService/SFSmsServer/.build/debug/PerfectThread.build/Threading.d",
+    "object": "/Users/sean/Desktop/childService/SFSmsServer/.build/debug/PerfectThread.build/Threading.swift.o",
+    "swiftmodule": "/Users/sean/Desktop/childService/SFSmsServer/.build/debug/PerfectThread.build/Threading~partial.swiftmodule",
+    "swift-dependencies": "/Users/sean/Desktop/childService/SFSmsServer/.build/debug/PerfectThread.build/Threading.swiftdeps"
+  },
+  "/Users/sean/Desktop/childService/SFSmsServer/Packages/PerfectThread-0.11.0/Sources/ThreadQueue.swift": {
+    "dependencies": "/Users/sean/Desktop/childService/SFSmsServer/.build/debug/PerfectThread.build/ThreadQueue.d",
+    "object": "/Users/sean/Desktop/childService/SFSmsServer/.build/debug/PerfectThread.build/ThreadQueue.swift.o",
+    "swiftmodule": "/Users/sean/Desktop/childService/SFSmsServer/.build/debug/PerfectThread.build/ThreadQueue~partial.swiftmodule",
+    "swift-dependencies": "/Users/sean/Desktop/childService/SFSmsServer/.build/debug/PerfectThread.build/ThreadQueue.swiftdeps"
+  }
+}

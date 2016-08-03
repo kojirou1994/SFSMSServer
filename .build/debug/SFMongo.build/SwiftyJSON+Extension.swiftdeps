@@ -1,0 +1,518 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "V7SFMongo4JSON"
+provides-member:
+- ["V7SFMongo4JSON", ""]
+- ["V7SFMongo4JSON", "date"]
+- ["V7SFMongo4JSON", "oid"]
+provides-dynamic-lookup:
+depends-top-level:
+- "BSONStringConvertible"
+- !private "/"
+- "JSON"
+- "String"
+- !private "NSNull"
+- "ObjectId"
+- "Date"
+- !private "StringLiteralType"
+- !private "Double"
+depends-member:
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps10Arithmetic", "init"]
+- !private ["Sa", "deinit"]
+- !private ["P7SFMongo21BSONStringConvertible", "Date"]
+- !private ["P7SFMongo21BSONStringConvertible", "Double"]
+- !private ["P7SFMongo21BSONStringConvertible", "Index"]
+- !private ["P7SFMongo21BSONStringConvertible", "IndexDistance"]
+- !private ["P7SFMongo21BSONStringConvertible", "NSNull"]
+- !private ["P7SFMongo21BSONStringConvertible", "ObjectId"]
+- !private ["P7SFMongo21BSONStringConvertible", "SubSequence"]
+- !private ["P7SFMongo21BSONStringConvertible", "_Element"]
+- ["P7SFMongo21BSONStringConvertible", "bsonString"]
+- !private ["P7SFMongo21BSONStringConvertible", "description"]
+- !private ["P7SFMongo21BSONStringConvertible", "init"]
+- !private ["P7SFMongo21BSONStringConvertible", "int64"]
+- !private ["P7SFMongo21BSONStringConvertible", "object"]
+- !private ["P7SFMongo21BSONStringConvertible", "string"]
+- !private ["P7SFMongo21BSONStringConvertible", "subscript"]
+- ["P7SFMongo21BSONStringConvertible", ""]
+- !private ["Ps19BinaryFloatingPoint", "init"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps10Collection", "Date"]
+- !private ["Ps10Collection", "Double"]
+- !private ["Ps10Collection", "Index"]
+- !private ["Ps10Collection", "IndexDistance"]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "NSNull"]
+- !private ["Ps10Collection", "ObjectId"]
+- !private ["Ps10Collection", "SubSequence"]
+- !private ["Ps10Collection", "_Element"]
+- ["Ps10Collection", "bsonString"]
+- !private ["Ps10Collection", "description"]
+- !private ["Ps10Collection", "int64"]
+- !private ["Ps10Collection", "object"]
+- !private ["Ps10Collection", "string"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "Date"]
+- !private ["Ps10Comparable", "Double"]
+- !private ["Ps10Comparable", "Index"]
+- !private ["Ps10Comparable", "IndexDistance"]
+- !private ["Ps10Comparable", "NSNull"]
+- !private ["Ps10Comparable", "ObjectId"]
+- !private ["Ps10Comparable", "SubSequence"]
+- !private ["Ps10Comparable", "_Element"]
+- ["Ps10Comparable", "bsonString"]
+- !private ["Ps10Comparable", "description"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "int64"]
+- !private ["Ps10Comparable", "object"]
+- !private ["Ps10Comparable", "string"]
+- !private ["Ps10Comparable", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "Date"]
+- !private ["Ps28CustomDebugStringConvertible", "Double"]
+- !private ["Ps28CustomDebugStringConvertible", "Index"]
+- !private ["Ps28CustomDebugStringConvertible", "IndexDistance"]
+- !private ["Ps28CustomDebugStringConvertible", "NSNull"]
+- !private ["Ps28CustomDebugStringConvertible", "ObjectId"]
+- !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- ["Ps28CustomDebugStringConvertible", "bsonString"]
+- !private ["Ps28CustomDebugStringConvertible", "description"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "int64"]
+- !private ["Ps28CustomDebugStringConvertible", "object"]
+- ["Ps28CustomDebugStringConvertible", "some"]
+- !private ["Ps28CustomDebugStringConvertible", "string"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "bsonString"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- ["Ps17CustomReflectable", "some"]
+- !private ["Ps23CustomStringConvertible", "Date"]
+- !private ["Ps23CustomStringConvertible", "Double"]
+- !private ["Ps23CustomStringConvertible", "Index"]
+- !private ["Ps23CustomStringConvertible", "IndexDistance"]
+- !private ["Ps23CustomStringConvertible", "NSNull"]
+- !private ["Ps23CustomStringConvertible", "ObjectId"]
+- !private ["Ps23CustomStringConvertible", "SubSequence"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- ["Ps23CustomStringConvertible", "bsonString"]
+- !private ["Ps23CustomStringConvertible", "description"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "int64"]
+- !private ["Ps23CustomStringConvertible", "object"]
+- !private ["Ps23CustomStringConvertible", "string"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["V10Foundation4Date", "bsonString"]
+- ["V10Foundation4Date", "deinit"]
+- !private ["V10Foundation4Date", "init"]
+- ["Sd", "deinit"]
+- !private ["Sd", "init"]
+- !private ["Ps9Equatable", "Date"]
+- !private ["Ps9Equatable", "Double"]
+- !private ["Ps9Equatable", "Index"]
+- !private ["Ps9Equatable", "IndexDistance"]
+- !private ["Ps9Equatable", "NSNull"]
+- !private ["Ps9Equatable", "ObjectId"]
+- !private ["Ps9Equatable", "SubSequence"]
+- !private ["Ps9Equatable", "_Element"]
+- ["Ps9Equatable", "bsonString"]
+- !private ["Ps9Equatable", "description"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "int64"]
+- !private ["Ps9Equatable", "object"]
+- !private ["Ps9Equatable", "string"]
+- !private ["Ps9Equatable", "subscript"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Date"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Double"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Index"]
+- !private ["Ps25ExpressibleByArrayLiteral", "IndexDistance"]
+- !private ["Ps25ExpressibleByArrayLiteral", "NSNull"]
+- !private ["Ps25ExpressibleByArrayLiteral", "ObjectId"]
+- !private ["Ps25ExpressibleByArrayLiteral", "SubSequence"]
+- !private ["Ps25ExpressibleByArrayLiteral", "_Element"]
+- ["Ps25ExpressibleByArrayLiteral", "bsonString"]
+- !private ["Ps25ExpressibleByArrayLiteral", "description"]
+- !private ["Ps25ExpressibleByArrayLiteral", "int64"]
+- !private ["Ps25ExpressibleByArrayLiteral", "object"]
+- !private ["Ps25ExpressibleByArrayLiteral", "string"]
+- !private ["Ps25ExpressibleByArrayLiteral", "subscript"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "Date"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "Double"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "Index"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "IndexDistance"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "NSNull"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "ObjectId"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "SubSequence"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_Element"]
+- ["Ps27ExpressibleByBooleanLiteral", "bsonString"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "description"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "int64"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "object"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "string"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "subscript"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Date"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Double"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Index"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "IndexDistance"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "NSNull"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "ObjectId"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "SubSequence"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "_Element"]
+- ["Ps30ExpressibleByDictionaryLiteral", "bsonString"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "description"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "int64"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "object"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "string"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "Date"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "Double"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "Index"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "IndexDistance"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "NSNull"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "ObjectId"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "SubSequence"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "_Element"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "bsonString"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "description"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "int64"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "object"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "string"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "subscript"]
+- !private ["Ps25ExpressibleByFloatLiteral", "Date"]
+- !private ["Ps25ExpressibleByFloatLiteral", "Double"]
+- !private ["Ps25ExpressibleByFloatLiteral", "Index"]
+- !private ["Ps25ExpressibleByFloatLiteral", "IndexDistance"]
+- !private ["Ps25ExpressibleByFloatLiteral", "NSNull"]
+- !private ["Ps25ExpressibleByFloatLiteral", "ObjectId"]
+- !private ["Ps25ExpressibleByFloatLiteral", "SubSequence"]
+- !private ["Ps25ExpressibleByFloatLiteral", "_Element"]
+- ["Ps25ExpressibleByFloatLiteral", "bsonString"]
+- !private ["Ps25ExpressibleByFloatLiteral", "description"]
+- !private ["Ps25ExpressibleByFloatLiteral", "init"]
+- !private ["Ps25ExpressibleByFloatLiteral", "int64"]
+- !private ["Ps25ExpressibleByFloatLiteral", "object"]
+- !private ["Ps25ExpressibleByFloatLiteral", "string"]
+- !private ["Ps25ExpressibleByFloatLiteral", "subscript"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "Date"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "Double"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "Index"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "IndexDistance"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "NSNull"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "ObjectId"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "SubSequence"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "_Element"]
+- ["Ps27ExpressibleByIntegerLiteral", "bsonString"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "description"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "int64"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "object"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "string"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "subscript"]
+- !private ["Ps23ExpressibleByNilLiteral", "Date"]
+- !private ["Ps23ExpressibleByNilLiteral", "Double"]
+- !private ["Ps23ExpressibleByNilLiteral", "Index"]
+- !private ["Ps23ExpressibleByNilLiteral", "IndexDistance"]
+- !private ["Ps23ExpressibleByNilLiteral", "NSNull"]
+- !private ["Ps23ExpressibleByNilLiteral", "ObjectId"]
+- !private ["Ps23ExpressibleByNilLiteral", "SubSequence"]
+- !private ["Ps23ExpressibleByNilLiteral", "_Element"]
+- ["Ps23ExpressibleByNilLiteral", "bsonString"]
+- !private ["Ps23ExpressibleByNilLiteral", "description"]
+- !private ["Ps23ExpressibleByNilLiteral", "int64"]
+- !private ["Ps23ExpressibleByNilLiteral", "object"]
+- ["Ps23ExpressibleByNilLiteral", "some"]
+- !private ["Ps23ExpressibleByNilLiteral", "string"]
+- !private ["Ps23ExpressibleByNilLiteral", "subscript"]
+- !private ["Ps26ExpressibleByStringLiteral", "Date"]
+- !private ["Ps26ExpressibleByStringLiteral", "Double"]
+- !private ["Ps26ExpressibleByStringLiteral", "Index"]
+- !private ["Ps26ExpressibleByStringLiteral", "IndexDistance"]
+- !private ["Ps26ExpressibleByStringLiteral", "NSNull"]
+- !private ["Ps26ExpressibleByStringLiteral", "ObjectId"]
+- !private ["Ps26ExpressibleByStringLiteral", "SubSequence"]
+- !private ["Ps26ExpressibleByStringLiteral", "_Element"]
+- ["Ps26ExpressibleByStringLiteral", "bsonString"]
+- !private ["Ps26ExpressibleByStringLiteral", "description"]
+- !private ["Ps26ExpressibleByStringLiteral", "int64"]
+- !private ["Ps26ExpressibleByStringLiteral", "object"]
+- !private ["Ps26ExpressibleByStringLiteral", "string"]
+- !private ["Ps26ExpressibleByStringLiteral", "subscript"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "Date"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "Double"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "Index"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "IndexDistance"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "NSNull"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "ObjectId"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "SubSequence"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "_Element"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "bsonString"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "description"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "int64"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "object"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "string"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "subscript"]
+- !private ["Ps13FloatingPoint", "init"]
+- !private ["Ps8Hashable", "bsonString"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps9Indexable", "Date"]
+- !private ["Ps9Indexable", "Double"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "IndexDistance"]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "NSNull"]
+- !private ["Ps9Indexable", "ObjectId"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "_Element"]
+- ["Ps9Indexable", "bsonString"]
+- !private ["Ps9Indexable", "description"]
+- !private ["Ps9Indexable", "int64"]
+- !private ["Ps9Indexable", "object"]
+- !private ["Ps9Indexable", "string"]
+- !private ["Ps9Indexable", "subscript"]
+- !private ["Ps13IndexableBase", "Date"]
+- !private ["Ps13IndexableBase", "Double"]
+- !private ["Ps13IndexableBase", "Index"]
+- !private ["Ps13IndexableBase", "IndexDistance"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "NSNull"]
+- !private ["Ps13IndexableBase", "ObjectId"]
+- !private ["Ps13IndexableBase", "SubSequence"]
+- !private ["Ps13IndexableBase", "_Element"]
+- ["Ps13IndexableBase", "bsonString"]
+- !private ["Ps13IndexableBase", "description"]
+- !private ["Ps13IndexableBase", "int64"]
+- !private ["Ps13IndexableBase", "object"]
+- !private ["Ps13IndexableBase", "string"]
+- !private ["Ps13IndexableBase", "subscript"]
+- !private ["Vs16IndexingIterator", "Element"]
+- ["Vs5Int64", "deinit"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- ["V7SFMongo4JSON", "Date"]
+- !private ["V7SFMongo4JSON", "Double"]
+- !private ["V7SFMongo4JSON", "Index"]
+- !private ["V7SFMongo4JSON", "IndexDistance"]
+- !private ["V7SFMongo4JSON", "NSNull"]
+- ["V7SFMongo4JSON", "ObjectId"]
+- ["V7SFMongo4JSON", "String"]
+- !private ["V7SFMongo4JSON", "SubSequence"]
+- !private ["V7SFMongo4JSON", "_Element"]
+- ["V7SFMongo4JSON", "bsonString"]
+- ["V7SFMongo4JSON", "date"]
+- ["V7SFMongo4JSON", "deinit"]
+- !private ["V7SFMongo4JSON", "description"]
+- !private ["V7SFMongo4JSON", "int64"]
+- !private ["V7SFMongo4JSON", "object"]
+- ["V7SFMongo4JSON", "oid"]
+- !private ["V7SFMongo4JSON", "string"]
+- !private ["V7SFMongo4JSON", "subscript"]
+- !private ["O7SFMongo9JSONIndex", "deinit"]
+- !private ["P7SFMongo21JSONStringConvertible", "bsonString"]
+- !private ["P7SFMongo21JSONStringConvertible", "init"]
+- !private ["P7SFMongo17JSONSubscriptType", "deinit"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- ["CSo6NSNull", "deinit"]
+- !private ["CSo6NSNull", "init"]
+- !private ["CSo8NSObject", "init"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["V7SFMongo8ObjectId", "bsonString"]
+- ["V7SFMongo8ObjectId", "deinit"]
+- !private ["V7SFMongo8ObjectId", "init"]
+- ["Sq", "deinit"]
+- ["Sq", "some"]
+- !private ["Ps16RawRepresentable", "Date"]
+- !private ["Ps16RawRepresentable", "Double"]
+- !private ["Ps16RawRepresentable", "Index"]
+- !private ["Ps16RawRepresentable", "IndexDistance"]
+- !private ["Ps16RawRepresentable", "NSNull"]
+- !private ["Ps16RawRepresentable", "ObjectId"]
+- !private ["Ps16RawRepresentable", "SubSequence"]
+- !private ["Ps16RawRepresentable", "_Element"]
+- ["Ps16RawRepresentable", "bsonString"]
+- !private ["Ps16RawRepresentable", "description"]
+- !private ["Ps16RawRepresentable", "int64"]
+- !private ["Ps16RawRepresentable", "object"]
+- !private ["Ps16RawRepresentable", "string"]
+- !private ["Ps16RawRepresentable", "subscript"]
+- !private ["P10Foundation20ReferenceConvertible", "bsonString"]
+- !private ["P10Foundation20ReferenceConvertible", "init"]
+- !private ["Ps8Sequence", "Date"]
+- !private ["Ps8Sequence", "Double"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Index"]
+- !private ["Ps8Sequence", "IndexDistance"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "NSNull"]
+- !private ["Ps8Sequence", "ObjectId"]
+- !private ["Ps8Sequence", "SubSequence"]
+- !private ["Ps8Sequence", "_Element"]
+- ["Ps8Sequence", "bsonString"]
+- !private ["Ps8Sequence", "description"]
+- !private ["Ps8Sequence", "int64"]
+- !private ["Ps8Sequence", "object"]
+- !private ["Ps8Sequence", "string"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["Ps12SignedNumber", "init"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "Iterator"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- !private ["Vs5Slice", "int64"]
+- !private ["Vs5Slice", "string"]
+- !private ["Ps10Strideable", "init"]
+- ["SS", "deinit"]
+- !private ["Ps15_CVarArgAligned", "init"]
+- !private ["Ps22_CVarArgPassedAsDouble", "init"]
+- !private ["Ps33_ExpressibleByBuiltinFloatLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "bsonString"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps11_Strideable", "init"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- !private "Ps10Arithmetic"
+- !private "Sa"
+- "P7SFMongo21BSONStringConvertible"
+- !private "Ps19BinaryFloatingPoint"
+- !private "Ps7CVarArg"
+- "Ps10Collection"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "V10Foundation4Date"
+- "Sd"
+- "Ps9Equatable"
+- "Ps25ExpressibleByArrayLiteral"
+- "Ps27ExpressibleByBooleanLiteral"
+- "Ps30ExpressibleByDictionaryLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps25ExpressibleByFloatLiteral"
+- "Ps27ExpressibleByIntegerLiteral"
+- "Ps23ExpressibleByNilLiteral"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps13FloatingPoint"
+- !private "Ps8Hashable"
+- "Ps9Indexable"
+- "Ps13IndexableBase"
+- !private "Vs16IndexingIterator"
+- "Vs5Int64"
+- !private "Ps16IteratorProtocol"
+- "V7SFMongo4JSON"
+- !private "O7SFMongo9JSONIndex"
+- !private "P7SFMongo21JSONStringConvertible"
+- !private "P7SFMongo17JSONSubscriptType"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "CSo6NSNull"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- "V7SFMongo8ObjectId"
+- "Sq"
+- "Ps16RawRepresentable"
+- !private "P10Foundation20ReferenceConvertible"
+- "Ps8Sequence"
+- !private "Ps12SignedNumber"
+- !private "Vs5Slice"
+- !private "Ps10Strideable"
+- "SS"
+- !private "Ps15_CVarArgAligned"
+- !private "Ps22_CVarArgPassedAsDouble"
+- !private "Ps33_ExpressibleByBuiltinFloatLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-25-a.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-25-a.xctoolchain/usr/lib/swift/shims/Visibility.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-25-a.xctoolchain/usr/lib/swift/shims/UnicodeShims.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-25-a.xctoolchain/usr/lib/swift/shims/RuntimeStubs.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-25-a.xctoolchain/usr/lib/swift/shims/SwiftStdint.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-25-a.xctoolchain/usr/lib/swift/shims/SwiftStddef.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-25-a.xctoolchain/usr/lib/swift/shims/RuntimeShims.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-25-a.xctoolchain/usr/lib/swift/shims/LibcShims.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-25-a.xctoolchain/usr/lib/swift/shims/RefCount.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-25-a.xctoolchain/usr/lib/swift/shims/HeapObject.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-25-a.xctoolchain/usr/lib/swift/shims/GlobalObjects.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-25-a.xctoolchain/usr/lib/swift/shims/FoundationShims.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-25-a.xctoolchain/usr/lib/swift/shims/DispatchShims.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-25-a.xctoolchain/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-25-a.xctoolchain/usr/lib/swift/shims/module.modulemap"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-25-a.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-25-a.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Users/sean/Desktop/childService/SFSmsServer/Packages/libmongoc-0.2.0/module.modulemap"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-25-a.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-25-a.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-25-a.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-25-a.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-25-a.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-stream-tls.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-rand.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-version-functions.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-version.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-stream-socket.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-stream-gridfs.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-stream-file.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-stream-buffered.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-log.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-opcode.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-matcher.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-init.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-gridfs-file-page.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-error.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-client-pool.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-uri.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-ssl.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-gridfs-file-list.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-gridfs-file.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-socket.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-iovec.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-stream.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-gridfs.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-database.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-config.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-find-and-modify.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-read-concern.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-read-prefs.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-index.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-host-list.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-cursor.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-flags.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-collection.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-client.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-write-concern.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-bulk-operation.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libbson-1.0/bson.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libbson-1.0/bcon.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libbson-1.0/bson-writer.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libbson-1.0/bson-version-functions.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libbson-1.0/bson-version.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libbson-1.0/bson-value.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libbson-1.0/bson-utf8.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libbson-1.0/bson-string.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libbson-1.0/bson-reader.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libbson-1.0/bson-oid.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libbson-1.0/bson-memory.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libbson-1.0/bson-md5.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libbson-1.0/bson-keys.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libbson-1.0/bson-json.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libbson-1.0/bson-endian.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libbson-1.0/bson-iter.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libbson-1.0/bson-error.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libbson-1.0/bson-clock.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libbson-1.0/bson-types.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libbson-1.0/bson-context.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libbson-1.0/bson-atomic.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libbson-1.0/bson-stdint.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libbson-1.0/bson-macros.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libbson-1.0/bson-config.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libbson-1.0/bson-compat.h"
+- "/usr/local/include/libmongoc-1.0/mongoc.h"
+interface-hash: "ce4ec42a41f44938ace0e286017ba71f"

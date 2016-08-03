@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.0-dev (LLVM 440a472499, Clang e10506ae1c, Swift 395e967875)"
+options: "7eaa1624c0c1a9464461b9cbf6b87700"
+build_time: [523441825, 228033000]
+inputs:
+  "/Users/sean/Desktop/childService/SFSmsServer/Packages/PerfectThread-0.11.0/Sources/Threading.swift": [523441794, 0]
+  "/Users/sean/Desktop/childService/SFSmsServer/Packages/PerfectThread-0.11.0/Sources/ThreadQueue.swift": [523441794, 0]

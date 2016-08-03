@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/sean/Desktop/childService/SFSmsServer/.build/debug/SmsProvider.build/master.swiftdeps"
+  },
+  "/Users/sean/Desktop/childService/SFSmsServer/Sources/SmsProvider/BaseSmsProvider.swift": {
+    "dependencies": "/Users/sean/Desktop/childService/SFSmsServer/.build/debug/SmsProvider.build/BaseSmsProvider.d",
+    "object": "/Users/sean/Desktop/childService/SFSmsServer/.build/debug/SmsProvider.build/BaseSmsProvider.swift.o",
+    "swiftmodule": "/Users/sean/Desktop/childService/SFSmsServer/.build/debug/SmsProvider.build/BaseSmsProvider~partial.swiftmodule",
+    "swift-dependencies": "/Users/sean/Desktop/childService/SFSmsServer/.build/debug/SmsProvider.build/BaseSmsProvider.swiftdeps"
+  },
+  "/Users/sean/Desktop/childService/SFSmsServer/Sources/SmsProvider/JzSmsProvider.swift": {
+    "dependencies": "/Users/sean/Desktop/childService/SFSmsServer/.build/debug/SmsProvider.build/JzSmsProvider.d",
+    "object": "/Users/sean/Desktop/childService/SFSmsServer/.build/debug/SmsProvider.build/JzSmsProvider.swift.o",
+    "swiftmodule": "/Users/sean/Desktop/childService/SFSmsServer/.build/debug/SmsProvider.build/JzSmsProvider~partial.swiftmodule",
+    "swift-dependencies": "/Users/sean/Desktop/childService/SFSmsServer/.build/debug/SmsProvider.build/JzSmsProvider.swiftdeps"
+  }
+}

@@ -1,0 +1,13 @@
+D:\VS_Projects\JianzhouWS\JianzhouWS\bin\Debug\JianzhouWS.exe
+D:\VS_Projects\JianzhouWS\JianzhouWS\bin\Debug\JianzhouWS.pdb
+D:\VS_Projects\JianzhouWS\JianzhouWS\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\VS_Projects\JianzhouWS\JianzhouWS\obj\x86\Debug\JianzhouWS.Form1.resources
+D:\VS_Projects\JianzhouWS\JianzhouWS\obj\x86\Debug\JianzhouWS.Properties.Resources.resources
+D:\VS_Projects\JianzhouWS\JianzhouWS\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+D:\VS_Projects\JianzhouWS\JianzhouWS\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+D:\VS_Projects\JianzhouWS\JianzhouWS\obj\x86\Debug\JianzhouWS.exe
+D:\VS_Projects\JianzhouWS\JianzhouWS\obj\x86\Debug\JianzhouWS.pdb
+D:\VS_Projects\JianzhouWS\JianzhouWS\bin\Debug\JianzhouWS.exe.config
+E:\建周sdk汇总\建周短信平台SDK(C#)\Web引用方式\JianzhouWS\JianzhouWS\bin\Debug\JianzhouWS.exe.config
+E:\建周sdk汇总\建周短信平台SDK(C#)\Web引用方式\JianzhouWS\JianzhouWS\obj\x86\Debug\JianzhouWS.exe
+E:\建周sdk汇总\建周短信平台SDK(C#)\Web引用方式\JianzhouWS\JianzhouWS\obj\x86\Debug\JianzhouWS.pdb

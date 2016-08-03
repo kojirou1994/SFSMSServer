@@ -1,0 +1,16 @@
+E:\建周sdk汇总\建周短信平台SDK(c#)\JZSMS_CSharp\obj\Debug\JZSMS_CSharp.exe
+E:\建周sdk汇总\建周短信平台SDK(c#)\JZSMS_CSharp\obj\Debug\JZSMS_CSharp.pdb
+E:\建周sdk汇总\建周短信平台SDK(c#)\JZSMS_CSharp\bin\Debug\JZSMS_CSharp.exe
+E:\建周sdk汇总\建周短信平台SDK(c#)\JZSMS_CSharp\bin\Debug\JZSMS_CSharp.pdb
+E:\建周sdk汇总\建周短信平台SDK(c#)\JZSMS_CSharp\obj\Debug\ResolveAssemblyReference.cache
+E:\建周sdk汇总\建周短信平台SDK(c#)\JZSMS_CSharp\obj\Debug\JZSMS_CSharp.Form1.resources
+E:\建周sdk汇总\建周短信平台SDK(c#)\JZSMS_CSharp\obj\Debug\JZSMS_CSharp.Properties.Resources.resources
+E:\建周sdk汇总\建周短信平台SDK(c#)\JZSMS_CSharp\obj\Debug\JZSMS_CSharp.csproj.GenerateResource.Cache
+E:\建周sdk汇总\sdk_20151230\Webservice方式(推荐)\建周短信平台SDK(C#)\Dll方式(32位,不支持个性化发送和彩信发送)\JZSMS_CSharp\obj\Debug\JZSMS_CSharp.exe
+E:\建周sdk汇总\sdk_20151230\Webservice方式(推荐)\建周短信平台SDK(C#)\Dll方式(32位,不支持个性化发送和彩信发送)\JZSMS_CSharp\obj\Debug\JZSMS_CSharp.pdb
+E:\建周sdk汇总\sdk_20151230\Webservice方式(推荐)\建周短信平台SDK(C#)\Dll方式(32位,不支持个性化发送和彩信发送)\JZSMS_CSharp\bin\Debug\JZSMS_CSharp.exe
+E:\建周sdk汇总\sdk_20151230\Webservice方式(推荐)\建周短信平台SDK(C#)\Dll方式(32位,不支持个性化发送和彩信发送)\JZSMS_CSharp\bin\Debug\JZSMS_CSharp.pdb
+E:\建周sdk汇总\sdk_20151230\Webservice方式(推荐)\建周短信平台SDK(C#)\Dll方式(32位,不支持个性化发送和彩信发送)\JZSMS_CSharp\obj\Debug\JZSMS_CSharp.csprojResolveAssemblyReference.cache
+E:\建周sdk汇总\sdk_20151230\Webservice方式(推荐)\建周短信平台SDK(C#)\Dll方式(32位,不支持个性化发送和彩信发送)\JZSMS_CSharp\obj\Debug\JZSMS_CSharp.Form1.resources
+E:\建周sdk汇总\sdk_20151230\Webservice方式(推荐)\建周短信平台SDK(C#)\Dll方式(32位,不支持个性化发送和彩信发送)\JZSMS_CSharp\obj\Debug\JZSMS_CSharp.Properties.Resources.resources
+E:\建周sdk汇总\sdk_20151230\Webservice方式(推荐)\建周短信平台SDK(C#)\Dll方式(32位,不支持个性化发送和彩信发送)\JZSMS_CSharp\obj\Debug\JZSMS_CSharp.csproj.GenerateResource.Cache

@@ -1,0 +1,10 @@
+version: "Apple Swift version 3.0-dev (LLVM 440a472499, Clang e10506ae1c, Swift 395e967875)"
+options: "1a202ccfdf4a003961689f4bad6f6cf5"
+build_time: [523441825, 229398000]
+inputs:
+  "/Users/sean/Desktop/childService/SFSmsServer/Packages/MongoDB-0.6.0/Sources/MongoDB/BSON.swift": [523441810, 0]
+  "/Users/sean/Desktop/childService/SFSmsServer/Packages/MongoDB-0.6.0/Sources/MongoDB/MongoClient.swift": [523441810, 0]
+  "/Users/sean/Desktop/childService/SFSmsServer/Packages/MongoDB-0.6.0/Sources/MongoDB/MongoCollection.swift": [523441810, 0]
+  "/Users/sean/Desktop/childService/SFSmsServer/Packages/MongoDB-0.6.0/Sources/MongoDB/MongoConnectionPool.swift": [523441810, 0]
+  "/Users/sean/Desktop/childService/SFSmsServer/Packages/MongoDB-0.6.0/Sources/MongoDB/MongoCursor.swift": [523441810, 0]
+  "/Users/sean/Desktop/childService/SFSmsServer/Packages/MongoDB-0.6.0/Sources/MongoDB/MongoDatabase.swift": [523441810, 0]

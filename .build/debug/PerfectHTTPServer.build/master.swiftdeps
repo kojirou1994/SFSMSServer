@@ -1,0 +1,9 @@
+version: "Apple Swift version 3.0-dev (LLVM 440a472499, Clang e10506ae1c, Swift 395e967875)"
+options: "d246bc604011579ea04a565edd053dbe"
+build_time: [523441841, 330483000]
+inputs:
+  "/Users/sean/Desktop/childService/SFSmsServer/Packages/PerfectHTTPServer-0.7.0/Sources/HPACK.swift": [523441550, 0]
+  "/Users/sean/Desktop/childService/SFSmsServer/Packages/PerfectHTTPServer-0.7.0/Sources/HTTP11Request.swift": [523441550, 0]
+  "/Users/sean/Desktop/childService/SFSmsServer/Packages/PerfectHTTPServer-0.7.0/Sources/HTTP11Response.swift": [523441550, 0]
+  "/Users/sean/Desktop/childService/SFSmsServer/Packages/PerfectHTTPServer-0.7.0/Sources/HTTP2.swift": [523441550, 0]
+  "/Users/sean/Desktop/childService/SFSmsServer/Packages/PerfectHTTPServer-0.7.0/Sources/HTTPServer.swift": [523441550, 0]

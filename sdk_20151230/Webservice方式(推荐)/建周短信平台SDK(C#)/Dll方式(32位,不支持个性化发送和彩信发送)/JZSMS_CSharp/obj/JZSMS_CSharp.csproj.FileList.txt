@@ -1,0 +1,8 @@
+bin\Debug\JZSMS_CSharp.exe
+bin\Debug\JZSMS_CSharp.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\JZSMS_CSharp.Form1.resources
+obj\Debug\JZSMS_CSharp.Properties.Resources.resources
+obj\Debug\JZSMS_CSharp.csproj.GenerateResource.Cache
+obj\Debug\JZSMS_CSharp.exe
+obj\Debug\JZSMS_CSharp.pdb

@@ -1,0 +1,269 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "recordType"
+- "SmsInfo"
+provides-nominal:
+- "O6Models10recordType"
+- "V6Models7SmsInfo"
+provides-member:
+- ["O6Models10recordType", ""]
+- ["V6Models7SmsInfo", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Date"
+- "SmsType"
+- "String"
+- "SFModel"
+- "SmsProvider"
+- "recordType"
+- "ObjectId"
+- "SourceType"
+- "JSON"
+- "IntegerLiteralType"
+- "=="
+- !private "~="
+- "SmsInfo"
+- "Int"
+- "FloatLiteralType"
+depends-member:
+- !private ["P7SFMongo21BSONStringConvertible", "Stride"]
+- !private ["P7SFMongo21BSONStringConvertible", "_getBuiltinLogicValue"]
+- !private ["P7SFMongo21BSONStringConvertible", "hashValue"]
+- !private ["Ps17BitwiseOperations", "Stride"]
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "Stride"]
+- !private ["Ps7CVarArg", "hashValue"]
+- !private ["Vs11ClosedRange", "deinit"]
+- !private ["Ps10Comparable", "Stride"]
+- !private ["Ps10Comparable", "hashValue"]
+- !private ["Vs20CountableClosedRange", "deinit"]
+- !private ["Vs14CountableRange", "deinit"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "Stride"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- !private ["Ps17CustomReflectable", "Stride"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- !private ["Ps23CustomStringConvertible", "Stride"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- ["Ps9Equatable", "RawValue"]
+- !private ["Ps9Equatable", "Stride"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "hashValue"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "rawValue"]
+- ["Ps9Equatable", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "Stride"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- ["Ps8Hashable", "RawValue"]
+- !private ["Ps8Hashable", "Stride"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "hashValue"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "rawValue"]
+- ["Ps8Hashable", ""]
+- !private ["Si", "Stride"]
+- ["Si", "deinit"]
+- !private ["Si", "hashValue"]
+- !private ["Ps7Integer", "Stride"]
+- !private ["Ps7Integer", "hashValue"]
+- !private ["Ps17IntegerArithmetic", "Stride"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- !private ["P7SFMongo21JSONStringConvertible", "Stride"]
+- !private ["P7SFMongo21JSONStringConvertible", "_getBuiltinLogicValue"]
+- !private ["P7SFMongo21JSONStringConvertible", "hashValue"]
+- !private ["P7SFMongo17JSONSubscriptType", "Stride"]
+- !private ["P7SFMongo17JSONSubscriptType", "hashValue"]
+- !private ["Ps10MirrorPath", "Stride"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- ["Sq", "deinit"]
+- !private ["Vs5Range", "deinit"]
+- ["Ps16RawRepresentable", "RawValue"]
+- ["Ps16RawRepresentable", "hashValue"]
+- ["Ps16RawRepresentable", "init"]
+- ["Ps16RawRepresentable", "rawValue"]
+- ["Ps16RawRepresentable", ""]
+- !private ["Ps13SignedInteger", "Stride"]
+- !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps12SignedNumber", "Stride"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- ["V6Models7SmsInfo", "Date"]
+- ["V6Models7SmsInfo", "JSON"]
+- ["V6Models7SmsInfo", "ObjectId"]
+- ["V6Models7SmsInfo", "SmsProvider"]
+- ["V6Models7SmsInfo", "SmsType"]
+- ["V6Models7SmsInfo", "SourceType"]
+- ["V6Models7SmsInfo", "String"]
+- ["V6Models7SmsInfo", "content"]
+- ["V6Models7SmsInfo", "deinit"]
+- ["V6Models7SmsInfo", "recordType"]
+- ["V6Models7SmsInfo", "record_type"]
+- ["V6Models7SmsInfo", "send_error_discrption"]
+- ["V6Models7SmsInfo", "send_mobile"]
+- ["V6Models7SmsInfo", "send_success_sms_id"]
+- ["V6Models7SmsInfo", "sms_provider"]
+- ["V6Models7SmsInfo", "title"]
+- ["V6Models11SmsProvider", "deinit"]
+- !private ["Ps10Strideable", "Stride"]
+- !private ["Ps10Strideable", "hashValue"]
+- ["SS", "deinit"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "Stride"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- !private ["Ps14_Incrementable", "Stride"]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps8_Integer", "Stride"]
+- !private ["Ps8_Integer", "hashValue"]
+- !private ["Ps18_IntegerArithmetic", "Stride"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "Stride"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps14_SignedInteger", "Stride"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- !private ["Ps11_Strideable", "Stride"]
+- !private ["Ps11_Strideable", "hashValue"]
+- ["O6Models10recordType", "RawValue"]
+- ["O6Models10recordType", "deinit"]
+- ["O6Models10recordType", "fild"]
+- ["O6Models10recordType", "hashValue"]
+- ["O6Models10recordType", "init"]
+- ["O6Models10recordType", "other"]
+- ["O6Models10recordType", "rawValue"]
+- ["O6Models10recordType", "success"]
+- ["O6Models10recordType", "wait"]
+depends-nominal:
+- !private "P7SFMongo21BSONStringConvertible"
+- !private "Ps17BitwiseOperations"
+- "Sb"
+- !private "Ps7CVarArg"
+- !private "Vs11ClosedRange"
+- !private "Ps10Comparable"
+- !private "Vs20CountableClosedRange"
+- !private "Vs14CountableRange"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- "Ps8Hashable"
+- "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "P7SFMongo21JSONStringConvertible"
+- !private "P7SFMongo17JSONSubscriptType"
+- !private "Ps10MirrorPath"
+- "Sq"
+- !private "Vs5Range"
+- "Ps16RawRepresentable"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- "V6Models7SmsInfo"
+- "V6Models11SmsProvider"
+- !private "Ps10Strideable"
+- "SS"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+- "O6Models10recordType"
+depends-dynamic-lookup:
+depends-external:
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-25-a.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-25-a.xctoolchain/usr/lib/swift/shims/Visibility.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-25-a.xctoolchain/usr/lib/swift/shims/UnicodeShims.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-25-a.xctoolchain/usr/lib/swift/shims/RuntimeStubs.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-25-a.xctoolchain/usr/lib/swift/shims/SwiftStdint.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-25-a.xctoolchain/usr/lib/swift/shims/SwiftStddef.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-25-a.xctoolchain/usr/lib/swift/shims/RuntimeShims.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-25-a.xctoolchain/usr/lib/swift/shims/LibcShims.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-25-a.xctoolchain/usr/lib/swift/shims/RefCount.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-25-a.xctoolchain/usr/lib/swift/shims/HeapObject.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-25-a.xctoolchain/usr/lib/swift/shims/GlobalObjects.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-25-a.xctoolchain/usr/lib/swift/shims/FoundationShims.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-25-a.xctoolchain/usr/lib/swift/shims/DispatchShims.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-25-a.xctoolchain/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-25-a.xctoolchain/usr/lib/swift/shims/module.modulemap"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-25-a.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-25-a.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Users/sean/Desktop/childService/SFSmsServer/Packages/libmongoc-0.2.0/module.modulemap"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-25-a.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-25-a.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-25-a.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-25-a.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-25-a.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/sean/Desktop/childService/SFSmsServer/.build/debug/SFMongo.swiftmodule"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-stream-tls.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-rand.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-version-functions.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-version.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-stream-socket.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-stream-gridfs.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-stream-file.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-stream-buffered.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-log.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-opcode.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-matcher.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-init.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-gridfs-file-page.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-error.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-client-pool.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-uri.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-ssl.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-gridfs-file-list.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-gridfs-file.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-socket.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-iovec.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-stream.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-gridfs.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-database.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-config.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-find-and-modify.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-read-concern.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-read-prefs.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-index.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-host-list.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-cursor.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-flags.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-collection.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-client.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-write-concern.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libmongoc-1.0/mongoc-bulk-operation.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libbson-1.0/bson.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libbson-1.0/bcon.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libbson-1.0/bson-writer.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libbson-1.0/bson-version-functions.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libbson-1.0/bson-version.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libbson-1.0/bson-value.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libbson-1.0/bson-utf8.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libbson-1.0/bson-string.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libbson-1.0/bson-reader.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libbson-1.0/bson-oid.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libbson-1.0/bson-memory.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libbson-1.0/bson-md5.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libbson-1.0/bson-keys.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libbson-1.0/bson-json.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libbson-1.0/bson-endian.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libbson-1.0/bson-iter.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libbson-1.0/bson-error.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libbson-1.0/bson-clock.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libbson-1.0/bson-types.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libbson-1.0/bson-context.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libbson-1.0/bson-atomic.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libbson-1.0/bson-stdint.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libbson-1.0/bson-macros.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libbson-1.0/bson-config.h"
+- "/usr/local/Cellar/mongo-c/1.3.5/include/libbson-1.0/bson-compat.h"
+- "/usr/local/include/libmongoc-1.0/mongoc.h"
+interface-hash: "e458241c1aded47d6b93804aaa522745"
