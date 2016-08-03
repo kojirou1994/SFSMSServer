@@ -1,45 +1,49 @@
 //
-//  SmsProvider.swift
-//  SFSmsServer
+//  SMSProvider.swift
+//  SFSMSServer
 //
 //  Created by sean on 16/7/19.
 //
 import Foundation
-import
+import SFMongo
 
-
-
-public struct SmsProvider:SFModel{
+public struct SMSProvider: SFModel {
     
-    var _id:ObjectId
-    //名称
-    var title:String
-    //链接帐号
-    var account:Array<SmsProviderAccount>
-    //余额
-    var balance:String?
-    //签名
-    var signature:String?
-    //提过提供商发送的总条数
-    var total_send_sms:Int
-    //提供商接口
-    var server:ProviderServer?
+    var _id: ObjectId
     
-    public init(json:JSON) {
-
+    ///名称
+    var title: String
+    
+    ///链接帐号
+    var account: Array<SMSProviderAccount>
+    
+    ///余额
+    var balance: String?
+    
+    ///签名
+    var signature: String?
+    
+    ///提过提供商发送的总条数
+    var total_send_sms: Int
+    
+    ///提供商接口
+    var server: ProviderServer?
+    
+    public init(json: JSON) throws {
+        throw SFMongoError.invalidData
     }
 }
 
-
-public struct SmsProviderAccount:SFModel{
+public struct SMSProviderAccount: SFModel {
     //账户类型
-    var account_type:SmsType
+    var account_type: SMSType
     //用户名
-    var account:String
+    var account: String
     //密码
-    var password:String
+    var password: String
     
-    public init(json:JSON) {
+    public init(json: JSON) throws {
+        throw SFMongoError.invalidData
     }
 }
 
@@ -62,7 +66,7 @@ public struct ProviderServer:SFModel{
     //
     var record_code:CustomStringConvertible?
     
-    public init(json:JSON) {
-        
+    public init(json: JSON) throws {
+        throw SFMongoError.invalidData
     }
 }

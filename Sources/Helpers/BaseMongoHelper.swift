@@ -9,7 +9,7 @@
 import Foundation
 import MongoDB
 
-public enum MongoError: ErrorProtocol {
+public enum MongoError: Error {
     case clientError
     case databaseError
     case collectionError    

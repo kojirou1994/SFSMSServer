@@ -10,9 +10,9 @@ import Foundation
 import MongoDB
 import SFMongo
 
-extension MongoHelper{
+extension MongoHelper {
     
-    public func insert(bson: BSONStringConvertible)throws {
+    public func insert(bson: BSONStringConvertible) throws {
         guard let collectiont = dbCollection() else {
             throw MongoError.collectionError
         }

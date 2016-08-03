@@ -1,6 +1,6 @@
 //
 //  jZRecordCodeHelper.swift
-//  SFSmsServer
+//  SFSMSServer
 //
 //  Created by Sean on 16/7/21.
 //
@@ -8,8 +8,8 @@
 
 import Foundation
 
-//建周返回码
-public enum RecordCodeType:CustomStringConvertible{
+///建周返回码
+public enum RecordCodeType: CustomStringConvertible{
     case balance_error
     case password_or_account_error
     case link_provider_error
@@ -56,7 +56,7 @@ public enum RecordCodeType:CustomStringConvertible{
         }
     }
     
-    public static func codeTypeFrom(code:Int) -> RecordCodeType{
+    public static func codeTypeFrom(code:Int) -> RecordCodeType {
         switch code {
         case -1: return .balance_error
         case -2: return .password_or_account_error

@@ -1,6 +1,6 @@
 //
 //  HttpHelper.swift
-//  SFSmsServer
+//  SFSMSServer
 //
 //  Created by Sean on 16/7/26.
 //
@@ -8,55 +8,38 @@
 
 import Foundation
 
-public class HttpHelper{
+public class HttpHelper {
     
-    var uri = "http://www.baidu.com"
+    let uri = "http://www.baidu.com"
     
     func postRequest() {
         
-         let request = NSMutableURLRequest(URL:uri )
-         request.httpMethod = "POST"
-         let postString = "id=13&name=Jack"
-         request.httpBody = postString.data(NSUTF8StringEncoding)
-          let task = URLSession.sharedSession.dataTaskWithRequest(request) { data, response, error in
-                    guard error == nil && data != nil else{                                                          // check for fundamental networking error
-                        print("error=\(error)")
-                        return
-                    }
-                    if let httpStatus = response as? NSHTTPURLResponse , httpStatus.statusCode != 200 {           // check for http errors
-                        print("statusCode should be 200, but is \(httpStatus.statusCode)")
-                        print("response = \(response)")
-                    }
-                    let responseString = NSString(data: data!, encoding: NSUTF8StringEncoding)
-                    print("responseString = \(responseString)")
+        var request = URLRequest(url: URL(string: uri)!)
+        request.httpMethod = "POST"
+        let param = [
+            "id": 13,
+            "name": "Jack"
+        ]
+        do{
+            let requestBody = try JSONSerialization.data(withJSONObject: param, options: .prettyPrinted)
+            request.httpBody = requestBody
+            let task = URLSession.shared.dataTask(with: request, completionHandler: { (data, response, error) in
+                guard let data = data, let response = response as? HTTPURLResponse, error == nil else {
+                    return
                 }
-                task.resume()
-            }
+                switch response.statusCode {
+                case 200:
+                    print(String(data: data, encoding: .utf8))
+                default:
+                    print("statusCode should be 200, but is \(response.statusCode)")
+                    print("response: \(response)")
+                }
+            })
+            task.resume()
+        }catch let error as NSError {
+            
+        }
     }
     
     
-//    func postRequest()  {
-//    
-//       // let request = NSMutableURLRequest(URL:uri )
-//        request.httpMethod = "POST"
-//        
-//        let postString = "id=13&name=Jack"
-//        request.httpBody = postString.data(NSUTF8StringEncoding)
-//        let task = URLSession.sharedSession.dataTaskWithRequest(request) { data, response, error in
-//            guard error == nil && data != nil else {                                                          // check for fundamental networking error
-//                print("error=\(error)")
-//                return
-//            }
-//            
-//            if let httpStatus = response as? NSHTTPURLResponse where httpStatus.statusCode != 200 {           // check for http errors
-//                print("statusCode should be 200, but is \(httpStatus.statusCode)")
-//                print("response = \(response)")
-//            }
-//            
-//            let responseString = NSString(data: data!, encoding: NSUTF8StringEncoding)
-//            print("responseString = \(responseString)")
-//        }
-//        task.resume()
-//    }
-
-//}
+}

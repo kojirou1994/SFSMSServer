@@ -3,8 +3,7 @@ import PerfectLib
 import PerfectHTTP
 import SFMongo
 import MongoDB
-import Models
-
+import Helpers
 
 let server = HTTPServer()
 
@@ -16,7 +15,7 @@ routes.add(method: .get, uri: "/") { (request, response) in
 }
 
 routes.add(method: .post, uri: "/login") { (req, res) in
-    guard let appId = req.param(name: "appId"), appKey = req.param(name: "appKey") else {
+    guard let appId = req.param(name: "appId"), let appKey = req.param(name: "appKey") else {
         res.status = .badRequest
         res.completed()
         return
