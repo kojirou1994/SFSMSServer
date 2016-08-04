@@ -24,7 +24,7 @@ public struct SMSProvider: SFModel {
     var signature: String?
     
     ///提过提供商发送的总条数
-    var total_send_sms: Int
+//    var total_send_sms: Int
     
     ///提供商接口
     var server: ProviderServer?
@@ -35,10 +35,13 @@ public struct SMSProvider: SFModel {
 }
 
 public struct SMSProviderAccount: SFModel {
+    
     //账户类型
     var account_type: SMSType
+    
     //用户名
     var account: String
+    
     //密码
     var password: String
     
@@ -47,24 +50,22 @@ public struct SMSProviderAccount: SFModel {
     }
 }
 
-
-
-public enum MethodType:String{
-    case get = "get"
-    case post = "post"
-}
-
-public struct ProviderServer:SFModel{
+public struct ProviderServer: SFModel {
+    
     //功能
     var title:String
+    
     //
-    var request_method:MethodType
+    var request_method: String
+    
     //接口入口
-    var provider_server:String
+    var provider_server: String
+    
     //接口参数
-    var server_params:Array<String>
+    var server_params: [String]
+    
     //
-    var record_code:CustomStringConvertible?
+    var record_code: CustomStringConvertible?
     
     public init(json: JSON) throws {
         throw SFMongoError.invalidData

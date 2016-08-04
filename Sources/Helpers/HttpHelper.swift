@@ -37,7 +37,7 @@ public class HttpHelper {
             })
             task.resume()
         }catch let error as NSError {
-            
+            print(error.domain)
         }
     }
     

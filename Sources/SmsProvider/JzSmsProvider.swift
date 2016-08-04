@@ -15,8 +15,7 @@ public class JzSMSProvider: BaseSMSProvider {
     }
     
     public func sendSMS() {
-       //let sendSMSUri =
-        var request:NSURLRequest
+       
     }
     
     public func smsRecord() {
@@ -24,4 +23,3 @@ public class JzSMSProvider: BaseSMSProvider {
     }
     
 }
-
