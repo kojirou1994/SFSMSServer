@@ -15,10 +15,10 @@ public struct SMSProvider: SFModel {
     var title: String
     
     ///链接帐号
-    var account: Array<SMSProviderAccount>
+    var account: [SMSProviderAccount]
     
     ///余额
-    var balance: String?
+//    var balance: String?
     
     ///签名
     var signature: String?
@@ -27,7 +27,7 @@ public struct SMSProvider: SFModel {
 //    var total_send_sms: Int
     
     ///提供商接口
-    var server: ProviderServer?
+//    var server: ProviderServer?
     
     public init(json: JSON) throws {
         throw SFMongoError.invalidData
