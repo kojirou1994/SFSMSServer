@@ -1,48 +1,9 @@
 import Foundation
 import SFMongo
 
-///短信发送状态
-public enum SMSState: Int, JSONStringConvertible, BSONStringConvertible {
-    
-    case wait = 100
-    
-    case success = 200
-    
-    case fail = 400
-    
-    case other = 500
-    
-    public var jsonString: String {
-        return self.rawValue.description
-    }
-    
-    public var bsonString: String {
-        return self.rawValue.bsonString
-    }
-}
-
 public enum SourceType: Int {
-    case ios = 0
-}
-
-public enum SMSType: Int, JSONStringConvertible, BSONStringConvertible {
-    
-    ///普通短信
-    case normal = 0
-    
-    ///个性化短信
-    case personal = 1
-    
-    ///语音短信
-    case audio = 2
-    
-    public var bsonString: String {
-        return self.rawValue.description
-    }
-    
-    public var jsonString: String {
-        return self.rawValue.description
-    }
+    case jucai = 0
+    case chedai = 1
 }
 
 public struct SMSInfo: SFModel {

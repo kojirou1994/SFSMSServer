@@ -9,6 +9,7 @@ let server = HTTPServer()
 
 var routes = Routes()
 
+routes.add(method: .post, uri: "/sms", handler: SMSHandler.smsPost)
 
 server.addRoutes(routes)
 
