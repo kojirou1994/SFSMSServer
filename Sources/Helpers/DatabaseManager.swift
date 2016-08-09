@@ -10,7 +10,7 @@ import SFMongo
 import MongoDB
 import Models
 
-public struct DatabaseManager {
+public class DatabaseManager {
     
     let client: MongoClient
     
@@ -41,20 +41,23 @@ extension DatabaseManager {
         _ = smsCol.save(document: try! BSON(json: sms.bsonString))
     }
     
-    ///设置推送是否成功
-//    func set(success: Bool, forNotification: ObjectId) {
-//        let update = try! BSON(json: "{\"$set\": {\"success\": \(success)}}")
-//        let selector = BSON()
-//        _ = selector.append(key: "_id", oid: ObjectId.parse(oid: forNotification.id))
-//        _ = notiCol.update(update: update, selector: selector)
-//    }
-    
-    ///获取指定Notification
+    ///获取指定SMS
     public func sms(_ bySMSId: String) -> SMSInfo? {
         let query = BSON()
         _ = query.append(key: "_id", oid: ObjectId.parse(oid: bySMSId))
         do {
             return try smsCol.find(query: query)?.map{return try SMSInfo(json: JSON.parse($0.asString))}.first
+        }catch {
+            return nil
+        }
+    }
+    
+    ///获取第一条未发送的SMS
+    public func unsendSMS() -> SMSInfo? {
+        let query = BSON()
+        _ = query.append(key: "state", int: SMSState.waiting.rawValue)
+        do {
+            return try smsCol.find(query: query, limit: 1)?.map{return try SMSInfo(json: JSON.parse($0.asString))}.first
         }catch {
             return nil
         }

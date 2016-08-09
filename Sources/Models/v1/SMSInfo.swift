@@ -34,8 +34,8 @@ public struct SMSInfo: SFModel {
     ///创建时间
     public var create_time: Date
     
-    ///发送时间
-    public var send_time: Date?
+    ///定时发送时间
+    public var send_time: Int?
     
     ///完成时间
     public var finish_time: Date?
