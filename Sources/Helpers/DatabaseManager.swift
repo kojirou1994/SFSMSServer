@@ -7,6 +7,7 @@
 //
 
 import SFMongo
+import SFJSON
 import MongoDB
 import Models
 
@@ -46,7 +47,7 @@ extension DatabaseManager {
         let query = BSON()
         _ = query.append(key: "_id", oid: ObjectId.parse(oid: bySMSId))
         do {
-            return try smsCol.find(query: query)?.map{return try SMSInfo(json: JSON.parse($0.asString))}.first
+            return try smsCol.find(query: query)?.map{return try SMSInfo(json: SFJSON(jsonString: $0.asString)!)}.first
         }catch {
             return nil
         }
@@ -57,7 +58,7 @@ extension DatabaseManager {
         let query = BSON()
         _ = query.append(key: "state", int: SMSState.waiting.rawValue)
         do {
-            return try smsCol.find(query: query, limit: 1)?.map{return try SMSInfo(json: JSON.parse($0.asString))}.first
+            return try smsCol.find(query: query, limit: 1)?.map{return try SMSInfo(json: SFJSON(jsonString: $0.asString)!)}.first
         }catch {
             return nil
         }
@@ -66,7 +67,7 @@ extension DatabaseManager {
     ///根据query查询Notification
     public func smss(_ query: BSON) -> [SMSInfo]? {
         do {
-            return try smsCol.find(query: query)?.map{return try SMSInfo(json: JSON.parse($0.asString))}
+            return try smsCol.find(query: query)?.map{return try SMSInfo(json: SFJSON(jsonString: $0.asString)!)}
         }catch {
             return nil
         }

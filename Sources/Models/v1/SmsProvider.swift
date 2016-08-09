@@ -6,6 +6,7 @@
 //
 import Foundation
 import SFMongo
+import SFJSON
 
 public struct SMSProvider: SFModel {
     
@@ -29,7 +30,7 @@ public struct SMSProvider: SFModel {
     ///提供商接口
 //    var server: ProviderServer?
     
-    public init(json: JSON) throws {
+    public init(json: SFJSON) throws {
         throw SFMongoError.invalidData
     }
 }
@@ -45,7 +46,7 @@ public struct SMSProviderAccount: SFModel {
     //密码
     var password: String
     
-    public init(json: JSON) throws {
+    public init(json: SFJSON) throws {
         throw SFMongoError.invalidData
     }
 }
@@ -67,7 +68,7 @@ public struct ProviderServer: SFModel {
     //
     var record_code: CustomStringConvertible?
     
-    public init(json: JSON) throws {
+    public init(json: SFJSON) throws {
         throw SFMongoError.invalidData
     }
 }

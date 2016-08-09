@@ -54,8 +54,7 @@ public struct JZSMSProvider: SMSPublishable {
         var request = URLRequest(url: URL(string: JZPath.normalSMS)!)
         
         request.httpMethod = "POST"
-        request.setValue("application/x-www-form-urlencoded", forHTTPHeaderField: "Content-Type")
-        request.setValue("UTF-8", forHTTPHeaderField: "charset")
+        request.setValue("application/x-www-form-urlencoded;charset=UTF-8", forHTTPHeaderField: "Content-Type")
         
         var parameter = "account=\(JZAccount.default.account)&password=\(JZAccount.default.password)&destmobile=\(sms.send_mobile)&msgText=\(sms.content)"
         if sms.send_time != nil {
@@ -74,11 +73,11 @@ public struct JZSMSProvider: SMSPublishable {
     }
 }
 
-extension Dictionary where Key: String, Value: String {
+extension Dictionary {
     var queryParameters: String {
         var parts = [String]()
         for (key, value) in self {
-            let part = String(format: "%@=%@", key, value)
+            let part = String(format: "%@=%@", key as! CVarArg, value as! CVarArg)
             parts.append(part)
         }
         return parts.joined(separator: "&")
