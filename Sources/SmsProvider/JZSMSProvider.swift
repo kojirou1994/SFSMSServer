@@ -8,6 +8,7 @@
 
 import Foundation
 import Models
+import SFCurl
 
 struct JZPath {
     ///普通短信
@@ -51,9 +52,9 @@ public struct JZSMSProvider: SMSPublishable {
     }
     
     public func send() {
-        var request = URLRequest(url: URL(string: JZPath.normalSMS)!)
+        var request = SFURLRequest(url: JZPath.normalSMS)
         
-        request.httpMethod = "POST"
+        request.httpMethod = .post
         request.setValue("application/x-www-form-urlencoded;charset=UTF-8", forHTTPHeaderField: "Content-Type")
         
         var parameter = "account=\(JZAccount.default.account)&password=\(JZAccount.default.password)&destmobile=\(sms.send_mobile)&msgText=\(sms.content)"
@@ -61,15 +62,22 @@ public struct JZSMSProvider: SMSPublishable {
             parameter += "&sendDateTime=\(sms.send_time)"
         }
         
-        request.httpBody = parameter.data(using: .utf8)
+        request.httpBody = parameter
         
-        URLSession.shared.dataTask(with: request) { data, response, error in
-            if error == nil, let data = data {
-                self.completion?(String(data: data, encoding: .utf8))
-            }else {
-                self.completion?(nil)
-            }
-        }.resume()
+        do {
+            let response = try SFURLConnection.send(request: request)
+//            print(response.bodyString)
+            self.completion?(response.bodyString)
+        }catch {
+            self.completion?(nil)
+        }
+//        URLSession.shared.dataTask(with: request) { data, response, error in
+//            if error == nil, let data = data {
+//                self.completion?(String(data: data, encoding: .utf8))
+//            }else {
+//                self.completion?(nil)
+//            }
+//        }.resume()
     }
 }
 

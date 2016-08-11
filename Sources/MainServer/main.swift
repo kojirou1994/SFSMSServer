@@ -13,13 +13,15 @@ let server = HTTPServer()
 
 var routes = Routes()
 
+Log.logger = SysLogger()
+
 routes.add(method: .post, uri: "sms", handler: SMSHandler.smsPost)
 
 routes.add(method: .get, uri: "sms/{smsId}", handler: SMSHandler.smsGet)
 
 routes.add(method: .get, uri: "test", handler: {_,response in
     response.status = .ok
-    print("Test")
+    Log.info(message: "GET TEXT")
     response.completed()
 })
 

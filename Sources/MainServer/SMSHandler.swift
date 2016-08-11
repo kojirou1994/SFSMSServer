@@ -8,6 +8,7 @@
 
 import Foundation
 import PerfectHTTP
+import PerfectLib
 import SFMongo
 import SFJSON
 import Models
@@ -19,20 +20,19 @@ class SMSHandler {
     public class func smsPost(request: HTTPRequest, response: HTTPResponse) {
         //检查请求是否为空
         guard let bodyString = request.postBodyString else {
-            print("No Request Body")
-//            response.status = .badRequest
+            Log.warning(message: "No Request Body")
+            response.status = .badRequest
             response.completed()
             return
         }
+        
         //将请求body转换为JSON对象
         guard let json = SFJSON(jsonString: bodyString) else {
-            print("请求参数不是JSON格式")
-//            print(bodyString)
-//            response.status = .badRequest
+            Log.warning(message: "请求参数不是JSON格式")
+            response.status = .badRequest
             response.completed()
             return
         }
-//        print(json)
         
         guard let source = SourceType(rawValue: json["source"].intValue), let send_mobile = json["send_mobile"].string, let content = json["content"].string, let sms_type = SMSType(rawValue: json["sms_type"].intValue) else {
             response.status = .badRequest
@@ -71,19 +71,19 @@ class SMSHandler {
     
     //循环检测未发送短信，逐条发送
     class func sendCycle() {
-        print("Start Checking Unsend SMS")
+        Log.debug(message: "Start Checking Unsend SMS")
         if let unsendSMS = DatabaseManager.default.unsendSMS(), !sendingSMS {
             sendingSMS = true
-            print("Start Send SMS")
+            Log.debug(message: "Start Send SMS")
             
             let sender = JZSMSProvider(sms: unsendSMS) { message in
                 
                 var updateSMS = unsendSMS
                 
-                if let message = message {
+                if let message = message, message.utf8.count != 0 {
                     
                     let result = JZResult.result(fromCode: message)
-                    print(result)
+
                     switch result {
                     case .success(taskId: let id):
                         //保存成功信息
@@ -106,7 +106,7 @@ class SMSHandler {
             }
             sender.send()
         }else {
-            print("No Unsend SMS or Already Sending")
+            Log.debug(message: "No Unsend SMS or Already Sending")
         }
     }
 }
