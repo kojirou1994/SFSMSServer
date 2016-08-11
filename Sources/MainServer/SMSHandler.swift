@@ -53,7 +53,9 @@ class SMSHandler {
     }
     
     public class func smsGet(request: HTTPRequest, response: HTTPResponse) {
-        guard let smsId = request.urlVariables["smsId"] else {
+        guard let smsId = request.urlVariables["smsid"] else {
+            response.status = .notFound
+            response.setBody(string: "Can not find the specific sms.")
             response.completed()
             return
         }
